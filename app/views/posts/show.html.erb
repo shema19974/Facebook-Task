@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="card">
+    <div class="card-body"><%= @post.content %></div>
+      <div class="card-body"><%= image_tag @post.image %></div> 
+      <div class="card-body">Tagged By: <%= @post.user.firstname %></div>
+        <div class="card-footer">
+          <%= link_to 'Edit', edit_post_path(@post) %> |
+          <%= link_to 'Back', posts_path %>
+        </div>
+  </div>
+</div>

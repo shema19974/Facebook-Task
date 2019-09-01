@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<div class="container">
+  <h5>My Profile<h5>
+  <div class="card">
+    <div class="card-body">FirstNme: <%= @user.firstname %></div>
+    <div class="card-body">LastName: <%= @user.lastname %></div> 
+    <div class="card-body">Email address: <%= @user.email  %></div>
+    <div class="card-footer">
+      <%= link_to 'Edit', edit_user_path(@user) %> |
+      <%= link_to 'Back', users_path %>
+    </div>
+  </div>
+  
+</div>

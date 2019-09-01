@@ -1,0 +1,101 @@
+.form-label{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.submit-btn{
+    margin-left: 5px;
+}
+
+.text-class{
+    margin-top: 35px;
+}
+
+.form-class{
+    margin-top: 35px;
+}
+
+.logo{
+    font-size: 25px;
+    margin-left: 75px;
+    margin-right: 250px;
+}
+
+#logo{
+    font-size: 25px;
+    margin-left: 75px;
+    margin-right: 250px;
+}
+
+
+#text-area{
+    width:30%;
+    height: 150px;
+    
+}
+
+
+.logo:hover{
+    background-color: blue;
+    color: black;
+}
+
+.home-page{
+    background-color: blue;
+    color: white;
+    position: relative;
+    top:0;
+    font-size: 14px;
+}
+
+.home-btn{
+    color: white;
+}
+
+.input-field{
+    margin: 5px;
+    padding: 5px;
+}
+.user-form{
+    float: left;
+}
+#user-create{
+    float: right;
+}
+
+.label-field{
+    color: white;
+}
+.make-margin{
+    margin-top: 200px;
+}
+
+
+
+.add-post{
+    margin-left: 200px;    
+}
+
+.add-post.hover{
+    color: black;
+    text-decoration: none;
+}
+
+.link-nav{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+.link-nav:hover{
+    text-decoration: none;
+    background-color: blue;
+    color: rgb(54, 13, 238);
+}
+.nav-btn{
+    color:black;
+}
+.nav-btn.hover{
+    background-color: blue;
+    color: white;
+}
+
